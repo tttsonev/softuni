@@ -87,6 +87,6 @@ C:\Users\tsetso\Desktop\softuni\SeleniumWebDriverTemplateProject\bin\Debug\Selen
 C:\Users\tsetso\Desktop\softuni\SeleniumWebDriverTemplateProject\bin\Debug\ThoughtWorks.Selenium.Core.xml
 C:\Users\tsetso\Desktop\softuni\SeleniumWebDriverTemplateProject\bin\Debug\WebDriver.xml
 C:\Users\tsetso\Desktop\softuni\SeleniumWebDriverTemplateProject\bin\Debug\WebDriver.Support.xml
-C:\Users\tsetso\Desktop\softuni\SeleniumWebDriverTemplateProject\obj\Debug\DemoQaStoreAutomation.csprojResolveAssemblyReference.cache
 C:\Users\tsetso\Desktop\softuni\SeleniumWebDriverTemplateProject\obj\Debug\SeleniumWebDriverTemplateProject.dll
 C:\Users\tsetso\Desktop\softuni\SeleniumWebDriverTemplateProject\obj\Debug\SeleniumWebDriverTemplateProject.pdb
+C:\Users\tsetso\Desktop\softuni\SeleniumWebDriverTemplateProject\obj\Debug\DemoQaStoreAutomation.csprojResolveAssemblyReference.cache
