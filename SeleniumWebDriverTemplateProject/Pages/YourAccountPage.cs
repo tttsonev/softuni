@@ -12,26 +12,20 @@ namespace SeleniumWebDriverTemplateProject.Pages
 {
     class YourAccountPage : Page
     {
-        [FindsBy(How = How.Id, Using = "menu-item-15")]
+        [FindsBy(How = How.LinkText, Using = "Home")]
         public IWebElement HomeButton { get; set; }
 
-        [FindsBy(How = How.Id, Using = "menu-item-33")]
+        [FindsBy(How = How.LinkText, Using = "Product Category")]
         public IWebElement ProductCategoryPage { get; set; }
 
-        [FindsBy(How = How.Id, Using = "menu-item-72")]
+        [FindsBy(How = How.LinkText, Using = "All Product")]
         public IWebElement AllProductButton { get; set; }
-
-        [FindsBy(How = How.Id, Using = "menu-item-16")]
-        public IWebElement ServicesSupportButton { get; set; }
 
         [FindsBy(How = How.CssSelector, Using = "#account a")]
         public IWebElement MyAccountButton { get; set; }
 
         [FindsBy(How = How.ClassName, Using = "display-name")]
         public IWebElement UserNameTextBox { get; set; }
-
-        [FindsBy(How = How.LinkText, Using = "(Logout)")]
-        public IWebElement LogoutButton { get; set; }
 
         public static YourAccountPage NavigateTo(IWebDriver driver)
         {

@@ -22,24 +22,8 @@ namespace SeleniumWebDriverTemplateProject.Pages
         [FindsBy(How = How.CssSelector, Using = "#account a")]
         public IWebElement MyAccountButton { get; set; }
 
-        [FindsBy(How = How.LinkText, Using = "#0 (no title)")]
-        public IWebElement ServicesSupportButton { get; set; }
-
         [FindsBy(How = How.LinkText, Using = "Product Category")]
         public IWebElement ProductCategoryButton { get; set; }
-
-        [FindsBy(How = How.ClassName, Using = "footer_blog")]
-        public IWebElement LatestProducts { get; set; }
-
-        [FindsBy(How = How.XPath, Using = "//section[contains(@class, 'footer_featured')]//li")]
-        public IList<IWebElement> LatestProductsList { get; set; }
-
-        [FindsBy(How = How.XPath, Using = "//section[contains(@class, 'footer_featured')]//li/a")]
-        public IList<IWebElement> LatestProductsLinks { get; set; }
-
-
-
-
 
         public static HomePage NavigateTo(IWebDriver driver)
         {

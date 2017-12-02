@@ -78,7 +78,6 @@
     <Compile Include="Tests\Abstract\DesktopSeleniumTestFixturePrototype.cs" />
     <Compile Include="Tests\Abstract\SeleniumTestFixturePrototype.cs" />
     <Compile Include="Tests\HomePageTests.cs" />
-    <Compile Include="Tests\NavigationBar.cs" />
     <Compile Include="Tests\LoginTests.cs" />
     <Compile Include="Tests\ProductPageTests.cs" />
   </ItemGroup>
@@ -92,6 +91,10 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+    <Folder Include="NewFolder2\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Selenium.Chrome.WebDriver.2.33\build\Selenium.Chrome.WebDriver.targets" Condition="Exists('..\packages\Selenium.Chrome.WebDriver.2.33\build\Selenium.Chrome.WebDriver.targets')" />
