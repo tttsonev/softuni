@@ -18,8 +18,15 @@ namespace SeleniumWebDriverTemplateProject.Pages
         [FindsBy(How = How.LinkText, Using = "Product Category")]
         public IWebElement ProductCategoryPage { get; set; }
 
+        [FindsBy(How = How.LinkText, Using = "My Account")]
+        public IWebElement MyAccountButton { get; set; }
+
+
         [FindsBy(How = How.LinkText, Using = "All Product")]
         public IWebElement AllProductButton { get; set; }
+
+        [FindsBy(How = How.LinkText, Using = "#0 (no title)")]
+        public IWebElement ServicesSupportButton { get; set; }
 
         [FindsBy(How = How.Id, Using = "log")]
         public IWebElement UserNameTextBox { get; set; }
